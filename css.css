@@ -1,0 +1,104 @@
+*{margin:0;padding:0;}
+body{font-size:14px;font-family:"微软雅黑"
+}
+
+								/*header的top部分*/
+.top{width:100%;
+height:24px;
+line-height:24px;
+background-color:#303030;
+color:#d8d8d8;
+}
+.pw{width:960px;margin:0 auto;}
+.x{float:left;}
+.float{clear:both;}
+.y{float:right;}
+.top span{margin-right:15px;}
+.top span.mr_0{margin:0;}
+.top a{color:#d8d8d8;
+text-decoration:none;}
+.top a:hover{color:orange}
+
+								/*header的logo部分*/
+.logos{float:left;height:59px;}
+.logos img{border:0}
+.chearch{float:right;width:350px;height:41px;margin-top:8px;}
+.chearch td{height:41px;}  /*这里要注意*/
+.c_z{float:left;width:6px;background:url("images/s_z.jpg")no-repeat;}/*帅气的背景缩写*/
+.c_c{float:left;width:240px;background:url("images/s_c.jpg")repeat-x;}
+.c_c input{height:35px;line-height:35px;border:none;margin-top:2px;}
+.c_y{float:left;width:78px;background:url("images/s_r.jpg")no-repeat;}
+.c_y button{height:41px;width:78px;background:none;border:0;cursor:pointer;}/*定义链接小手指*/
+.phonenumber span{float:right;font-size:26px;color:darkred;margin-top:9px;}
+.pw1{width:960px;height:59px;margin:0 auto;}
+.pw2{margin:15px 0;}
+
+								/*header的导航部分*/
+.daohang{margin-top:15px;width:100%;height:39px;background:url("images/nav_bg.jpg")repeat-x;
+}
+.pw3{width:960px;margin:0 auto;}
+.pw3 td{margin-top:-2px;float:left;line-height:39px;}
+.daohang a{padding:0 15px;color:#d8d8d8;text-decoration:none;font-size:15px;}
+.pw3 td:hover{background:url("images/nav_hover.jpg")repeat-x;height:39px;}
+ .pw3 td.d_1{background:url("images/nav_hover.jpg")repeat-x;height:39px;}
+  
+  
+                                /*center部分*/
+								
+								
+.center{width:960px;height:820px;margin:0 auto;}
+
+
+.tupian{margin-bottom:8px;margin-top:1px}
+
+
+.jianjie{float:left;width:540px;height;300px;margin-right:20px}/*margin-left20s是因为jianjie和xinwen之间有个间隔*/
+.jianjie_img{color:#616161;text-indent:24px}
+.jianjie_img img{float:left;margin:0 10px 10px 0;}
+
+
+.xinwen{float:left;width:400px;height:300px;position:relative}
+
+.x_z{float:left;width:600px;margin-top:24px}
+.tit{padding-bottom:10px;border-bottom:1px solid darkred;margin-bottom:10px}
+.xinwen2 img{float:left;margin:0 10px 10px 0;}
+.tit a{float:right;font-size:15px;color:darkred;text-decoration:none;font-weight:bolder;margin-top:20px;}
+.xinwen3{}
+.xinwen3 li{margin-left:15px;list-style-type:none;list-style-image:url("images/list_bg.jpg");height:24px;line-height:24px;position:relative;}
+.xinwen3 li.xinwen3_a{height:76px;list-style:none;margin:0}
+.xinwen3 a{color:#616161;text-decoration:none}
+.xinwen3 p{font-size:12px;font-weight:lighter;text-indent:24px}
+.xinwen3 span{position:absolute;right:0;bottom:0;font-size:12px;color:#8888}
+
+.chanpin{float:left;width:960px;height:300px}
+.chanpin table{border:none; }
+.chanpin td{border:solid 5px 0 5px 0 white;}
+
+.pw4{width:960px;margin:0 auto;}
+.pw4 td{position:relative;padding-right:8px}
+.pw4 span{display:none;position:absolute;left:0;bottom:0;background-color:darkred;color:#d8d8d8;height:20px;width:151px;font-size:14px;text-align:center}
+.pw4 td a:hover span{display:block}
+
+
+
+								/*footer部分*/
+
+.footer{width:100%;height:103px;position:relative;}
+
+.ft_1{height:103px;width:100%;background:url("images/footer_bg.jpg")repeat-x;}
+
+.pw5{width:960px;margin:0 auto;position:relative}
+.ft_1 span.zz{float:left;position:absolute;top:30px}
+.ft_1 span.zz td{padding-right:50px}
+.ft_1 a{color:#d8d8d8;text-decoration:none;}
+
+
+.ft_1 span.yy{float:right;font-size:10px;color:#d8d8d8;position:absolute;top:30px;right:0}
+.ft_1 span.tt{position:absolute;top:80px}
+.ft_1 span.tt td{padding-right:20px}
+.hahaha a {color:orange}
+.xiaoc{clear:both;}
+/*.ft_1 span.tt td{position:absolute;bottom:2px}*/
+.gud{width:40px;height:205px;position:fixed;right:0;top:50px;background:url("images/top_tool.jpg")no-repeat}
+.gud li{list-style-type:none}
+.gud button{height:50px;width:40px;background:none;border:0;cursor:pointer;}
